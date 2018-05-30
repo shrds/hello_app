@@ -21,3 +21,49 @@
 /yarn-error.log
 
 .byebug_history
+# Ignore the IDE specific files.
+/.project
+
+# Ignore RubyMine files
+/.idea
+
+# Ignore the target directory created by the deploy process
+/target
+
+# Ignore .orig files created by diffmerge
+*.orig
+
+### OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### VIM
+.*.s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+*.swp
+*.un~
+
+/public/assets
+
+# Ignore Guardfile
+Guardfile
+
+# Ignore rigmarole report file
+rigm-personnel_tool-*.html
+
+# Ignore en.yml and en.js locales so we only add en-US or others
+/config/locales/en.yml
+/app/assets/javascripts/jquery_globalize/locales/en.js
+
+.vscode/
